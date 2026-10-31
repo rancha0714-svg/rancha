@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>포트폴리오 컴포넌트 미리보기</title>
+  <link rel="stylesheet" href="styles/tokens.css">
+  <link rel="stylesheet" href="styles/components.css">
+</head>
+<body>
+  <div id="header"></div>
+  <main class="container">
+    <section class="section" id="about">
+      <p class="eyebrow">CLIMATE TECH &amp; MAKING</p>
+      <h1>기후테크와 메이킹으로<br>배우고 만드는 사람</h1>
+      <p class="muted">포트폴리오 디자인 시스템 · 버튼과 입력란을 직접 사용해보세요.</p>
+      <div id="hero"></div>
+    </section>
+    <section class="section stack"><h2>버튼과 상태 배지</h2><div id="buttons" class="row"></div><div id="badges" class="row"></div></section>
+    <section class="section stack" id="works"><h2>작업물 카드</h2><p class="muted">아래 카드는 실제 작업물이 아닌 디자인 예시입니다.</p><div id="cards" class="grid"></div></section>
+    <section class="section stack"><h2>입력 폼과 이미지 선택</h2><p class="muted">입력과 파일 선택은 이 화면에서만 미리 확인합니다. 서버에는 저장되지 않습니다.</p><form id="form" class="stack" style="max-width:760px" novalidate></form><div id="upload"></div><div id="feedback"></div></section>
+    <section class="section stack"><h2>알림과 빈 화면</h2><div id="states" class="stack"></div></section>
+    <section class="section stack"><h2>삭제 확인 대화상자</h2><div id="modal-example"></div></section>
+  </main>
+  <footer class="container section muted">기후테크·메이킹 포트폴리오 · 컴포넌트 미리보기</footer>
+  <script src="components/core.js"></script>
+  <script src="components/Button.js"></script>
+  <script src="components/Badge.js"></script>
+  <script src="components/ProjectCard.js"></script>
+  <script src="components/TextField.js"></script>
+  <script src="components/Alert.js"></script>
+  <script src="components/EmptyState.js"></script>
+  <script src="components/Modal.js"></script>
+  <script src="components/Header.js"></script>
+  <script src="components/ImageUpload.js"></script>
+  <script src="preview.js"></script>
+</body>
+</html>
